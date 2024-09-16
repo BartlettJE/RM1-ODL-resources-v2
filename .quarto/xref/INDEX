@@ -1,0 +1,50 @@
+{
+  "index.qmd": {
+    "index.html": "6f70e231"
+  },
+  "instructions.qmd": {
+    "instructions.html": "06b47934"
+  },
+  "webexercises.qmd": {
+    "webexercises.html": "043828b0"
+  },
+  "references.qmd": {
+    "references.html": "5b5aba7c"
+  },
+  "01-Course_overview.qmd": {
+    "01-Course_overview.html": "bb832312"
+  },
+  "03-AIS-00.qmd": {
+    "03-AIS-00.html": "5ee5f54e"
+  },
+  "02-Resources.qmd": {
+    "02-Resources.html": "bfe2ca97"
+  },
+  "03-AIS-01-groupagreement.qmd": {
+    "03-AIS-01-groupagreement.html": "86b364ac"
+  },
+  "03-AIS-04-MCQ.qmd": {
+    "03-AIS-04-MCQ.html": "5e0f7939"
+  },
+  "03-AIS-05-dataskills.qmd": {
+    "03-AIS-05-dataskills.html": "7b427793"
+  },
+  "03-AIS-02-stage1.qmd": {
+    "03-AIS-02-stage1.html": "59c9fb0d"
+  },
+  "03-AIS-03-stage2.qmd": {
+    "03-AIS-03-stage2.html": "f6f3759c"
+  },
+  "03-AIS-02-MCQ.qmd": {
+    "03-AIS-02-MCQ.html": "5ac7e6fb"
+  },
+  "03-AIS-03-dataskills.qmd": {
+    "03-AIS-03-dataskills.html": "1db3aa3a"
+  },
+  "03-AIS-04-stage1.qmd": {
+    "03-AIS-04-stage1.html": "58d07e97"
+  },
+  "03-AIS-05-stage2.qmd": {
+    "03-AIS-05-stage2.html": "7d409429"
+  }
+}
