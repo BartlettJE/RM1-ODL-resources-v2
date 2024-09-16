@@ -6,9 +6,11 @@ source(file = "include/deadlines.R")
 
 ## General information
 
-You must answer a set of multiple-choice questions that relate to the course content covered in weeks 1-4. This includes lectures, data skills, labs, and academic writing tutorials. 
+You must answer a set of multiple-choice questions that relate to the course content covered in weeks 1-5. This includes lectures and data skills. 
 
 - In total, this assessment is worth 5% of your final course grade. 
+
+- This assessment takes place in **Semester 1**. 
 
 - The deadline for submitting the MCQ is **`r MCQ_due`**. 
 

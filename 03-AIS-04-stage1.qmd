@@ -12,13 +12,15 @@ The group stage one report sets out the introduction (background research, ratio
 
 - This assessment is worth 30% of your final course grade and will be a group mark. Everyone in your group will receive the same grade and feedback. 
 
+- This assessment takes place in **Semester 2**. 
+
 - **One member** of your group should submit your complete stage one submission to Moodle. This will consist of an introduction and method section that would make up a stage one registered report submission prior to collecting data. 
 
 - In this course, you will not be collecting data yourself, but we will release a large secondary data set for you to apply your planned analyses to for the final individual stage two submission. For further information on the individual stage two report, please refer to the [Assessment Information Sheet](#stage2-AIS). 
 
 - You should submit a single Word document (.docx) to Moodle prior to the deadline. The submission link will open at least one week prior to the deadline and will be in the **Assessment: Stage One Group and Stage Two Individual Reports** tab on Moodle.
 
-- As a formative task and to outline ground rules for working in your group, you will complete and submit a [group work agreement](#groupagreement-AIS). We will introduce this document to you in week 2 when you will know your group allocation, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
+- As a formative task and to outline ground rules for working in your group, you will complete and submit a [group work agreement](#groupagreement-AIS). We will introduce this document to you in semester 2 when you will know your group allocation, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
 
 ## Word count and formatting
 
@@ -35,7 +37,6 @@ The group stage one report sets out the introduction (background research, ratio
 ## Type of assessment/structure
 
 - The stage one group report is modeled on the first half of a [registered report](https://www.cos.io/initiatives/registered-reports). This is a relatively new type of journal article where the research background, rationale, hypothesis, and planned methods are peer-reviewed prior to conducting a study. Instead of peer-review, your group work will be marked as an assessment. 
-
 - Your stage one group report will include an introduction and method section, plus references and appendices (where relevant). You will receive a template outlining the key sections and sub-sections to help with formatting. 
 
 ## Assessment Criteria

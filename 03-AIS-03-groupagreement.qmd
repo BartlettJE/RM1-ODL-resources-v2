@@ -6,9 +6,11 @@ source(file = "include/deadlines.R")
 
 ## General information
 
-We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the [stage one group report](#stage1-AIS). Groups typically experience problems when communication and task responsibilities are built on unspoken assumptions. As you probably do not know the people in your group when we make the allocations, we start the project by facilitating a discussion with you and your group so you can openly outline how you will communicate, [respect diversity](#group-work-advice), and [split tasks](#stageone-planning). 
+We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the [stage one group report](#stage1-AIS). Groups typically experience problems when communication and task responsibilities are built on unspoken assumptions. As you might not know the people in your group when we make the allocations, we start the project by facilitating a discussion with you and your group so you can openly outline how you will communicate, [respect diversity](#group-work-advice), and [split tasks](#stageone-planning). 
 
 - This is a formative task and is **not** part of the summative assessment for the course, but everyone **must** complete the task. We use the group work agreement as a way of identifying engagement and potential problems as early as possible. The course or programme leads will contact students who **do not** submit their group work agreement and students will potentially be placed on an individual submission if they do not engage with their groups. 
+
+- This task takes place in **Semester 2**. 
 
 - The deadline is **`r groupagreement_due`**, where everyone in the group must submit an individual signed copy of the agreement you worked on.
 
