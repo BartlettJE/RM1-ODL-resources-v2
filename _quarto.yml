@@ -59,6 +59,9 @@ book:
       - 03-AIS-03-groupagreement.qmd
       - 03-AIS-04-stage1.qmd
       - 03-AIS-05-stage2.qmd
+  - part: 05-Writing-00.qmd
+    chapters:
+      - 05-Writing-02-Reading.qmd
 bibliography: include/references.bib
 csl: include/apa.csl
 format:
