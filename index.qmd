@@ -1,12 +1,12 @@
 # Overview {.unnumbered}
 
-**Book Name**: MSc Research Methods 1 Course Information. 
+**Book Name**: MSc Research Methods 1 ODL Course Information. 
 
-**Summary**: Key course information such as assessments and lab resources for the Research Methods 1 course on the MSc Psychology conversion at the University of Glasgow School of Psychology & Neuroscience.
+**Summary**: Key course information such as assessments and lab resources for the Research Methods 1 course on the MSc Psychology ODL conversion at the University of Glasgow School of Psychology & Neuroscience.
 
 **Authors**: James Bartlett, Helena Paterson, & Thinh Pham. 
 
-**Aim**: This course covers introduces students to quantitative research methods in psychology. This is an accompanying book to the course to outline assessments, resources, and lab materials in one place. 
+**Aim**: This course covers introduces students to quantitative research methods in psychology. This is an accompanying book to the course to outline assessments and resources in one place. 
 
 **Contact**: This book is a living document and will be regularly checked and updated. Should you have any issues using the book or queries, please contact James Bartlett or Thinh Pham.
 
