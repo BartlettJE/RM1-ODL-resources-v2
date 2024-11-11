@@ -61,11 +61,11 @@ The group stage one report sets out the introduction (background research, ratio
 
 - Guidance on how to complete the stage one group report will form part of the weekly course activities, such as content covered in the lectures and activities in the labs. 
 
-- We cover the assumptions of simple linear regression (and relatedly, correlations and t-tests) and how to match your statistical model to your design and research question in the lectures and associated reading, such as the relevant sections of the PsyTeachR [Fundamentals of Quantitative Analysis](https://bartlettje.github.io/quant-fun-v3/){target="_blank"} book.
+- We cover the assumptions of simple linear regression (and relatedly, correlations and t-tests) and how to match your statistical model to your design and research question in the lectures and associated reading, such as the relevant sections of the PsyTeachR [Fundamentals of Quantitative Analysis](https://psyteachr.github.io/quant-fun-v3/){target="_blank"} book.
 
 - Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) section below.
 
-- You can find additional writing and study advice, including 1-to-1 guidance on the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/).
+- You can find additional writing and study advice, including 1-to-1 guidance on the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/){target="_blank"}.
 
 ## How to do well in this assessment
 

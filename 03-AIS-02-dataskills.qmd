@@ -8,7 +8,7 @@ source(file = "include/deadlines.R")
 
 Over two data skills assignments, you will work on an R Markdown template which includes a series of tasks such as general statistical knowledge questions, data wrangling, visualisation, descriptive and inferential statistics, and interpretation questions.
 
-We will not ask you anything that has not been covered yet in either the lectures or the [Fundamentals of Quantitative Analysis](https://bartlettje.github.io/quant-fun-v3/){target="_blank"} data skills book. For example, data skills 1 would focus on material from weeks 1 to 8, and **would not** expect you to know content covered after week 9 or later. 
+We will not ask you anything that has not been covered yet in either the lectures or the [Fundamentals of Quantitative Analysis](https://psyteachr.github.io/quant-fun-v3/){target="_blank"} data skills book. For example, data skills 1 would focus on material from weeks 1 to 8, and **would not** expect you to know content covered after week 9 or later. 
 
 - In total, this assessment is worth 15% of your final course grade. Each submission is worth 7.5% and you will be awarded a mark out of 22.
 
