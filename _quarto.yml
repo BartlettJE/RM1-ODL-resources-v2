@@ -62,6 +62,7 @@ book:
   - part: 05-Writing-00.qmd
     chapters:
       - 05-Writing-02-Reading.qmd
+      - 05-Writing-06-NHST.qmd
 bibliography: include/references.bib
 csl: include/apa.csl
 format:
