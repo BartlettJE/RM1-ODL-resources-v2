@@ -61,6 +61,7 @@ book:
       - 03-AIS-05-stage2.qmd
   - part: 05-Writing-00.qmd
     chapters:
+      - 05-Writing-01-MSLQ.qmd
       - 05-Writing-02-Reading.qmd
       - 05-Writing-06-NHST.qmd
 bibliography: include/references.bib

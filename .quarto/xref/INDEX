@@ -1,68 +1,41 @@
 {
   "index.qmd": {
-    "index.html": "6f70e231"
-  },
-  "instructions.qmd": {
-    "instructions.html": "06b47934"
-  },
-  "webexercises.qmd": {
-    "webexercises.html": "043828b0"
-  },
-  "references.qmd": {
-    "references.html": "5b5aba7c"
+    "index.html": "63dd5df9"
   },
   "01-Course_overview.qmd": {
-    "01-Course_overview.html": "bb832312"
-  },
-  "03-AIS-00.qmd": {
-    "03-AIS-00.html": "5ee5f54e"
+    "01-Course_overview.html": "0ec2b338"
   },
   "02-Resources.qmd": {
-    "02-Resources.html": "bfe2ca97"
+    "02-Resources.html": "ffbd62e7"
   },
-  "03-AIS-01-groupagreement.qmd": {
-    "03-AIS-01-groupagreement.html": "86b364ac"
-  },
-  "03-AIS-04-MCQ.qmd": {
-    "03-AIS-04-MCQ.html": "5e0f7939"
-  },
-  "03-AIS-05-dataskills.qmd": {
-    "03-AIS-05-dataskills.html": "7b427793"
-  },
-  "03-AIS-02-stage1.qmd": {
-    "03-AIS-02-stage1.html": "59c9fb0d"
-  },
-  "03-AIS-03-stage2.qmd": {
-    "03-AIS-03-stage2.html": "f6f3759c"
-  },
-  "03-AIS-02-MCQ.qmd": {
-    "03-AIS-02-MCQ.html": "5ac7e6fb"
-  },
-  "03-AIS-03-dataskills.qmd": {
-    "03-AIS-03-dataskills.html": "1db3aa3a"
-  },
-  "03-AIS-04-stage1.qmd": {
-    "03-AIS-04-stage1.html": "58d07e97"
-  },
-  "03-AIS-05-stage2.qmd": {
-    "03-AIS-05-stage2.html": "7d409429"
+  "03-AIS-00.qmd": {
+    "03-AIS-00.html": "67226fb2"
   },
   "03-AIS-01-MCQ.qmd": {
-    "03-AIS-01-MCQ.html": "bfb94ec1"
+    "03-AIS-01-MCQ.html": "083e5701"
   },
   "03-AIS-02-dataskills.qmd": {
-    "03-AIS-02-dataskills.html": "9254cc2a"
+    "03-AIS-02-dataskills.html": "a4b0e1bb"
   },
   "03-AIS-03-groupagreement.qmd": {
-    "03-AIS-03-groupagreement.html": "19e4fe84"
+    "03-AIS-03-groupagreement.html": "a482b6e8"
   },
-  "05-Writing-02-Reading.qmd": {
-    "05-Writing-02-Reading.html": "e05993b8"
+  "03-AIS-04-stage1.qmd": {
+    "03-AIS-04-stage1.html": "730649cf"
+  },
+  "03-AIS-05-stage2.qmd": {
+    "03-AIS-05-stage2.html": "d13b1fa4"
   },
   "05-Writing-00.qmd": {
-    "05-Writing-00.html": "05db2f2a"
+    "05-Writing-00.html": "41cbde90"
+  },
+  "05-Writing-01-MSLQ.qmd": {
+    "05-Writing-01-MSLQ.html": "0fb116ca"
+  },
+  "05-Writing-02-Reading.qmd": {
+    "05-Writing-02-Reading.html": "54fb6967"
   },
   "05-Writing-06-NHST.qmd": {
-    "05-Writing-06-NHST.html": "c9366b40"
+    "05-Writing-06-NHST.html": "3f7b14c2"
   }
 }
