@@ -6,15 +6,14 @@ library(tidyverse)
 library(knitr)
 ```
 
-In this research skills chapter, we explore reporting power analyses which normally goes in the method, but it does not quite align with the schedule for how quickly we cover report writing and inferential statistics. A power analysis is one strategy to justify how many participants you require for your study, and you would typically include it in the participants or data analysis sub-section of the method. We wanted to make sure we cover reporting power for anyone who wants to go above and beyond in the stage one group report. 
-
+In this research skills chapter, we explore reporting power analyses which normally goes in the method, but it does not quite align with the schedule for how quickly we cover report writing and inferential statistics. A power analysis is one strategy to justify how many participants you require for your study, and you would typically include it in the participants or data analysis sub-section of the method. 
 ## Recommended resources for statistical power
 
 In semester 1, the concept of statistical power and how it applies to specific statistical tests are spread across materials and several weeks of lectures:
 
--   Lecture week 5 - Hypothesis testing.
+-   Lecture week 8 - Hypothesis testing.
 
--   Lectures week 7-9 - Inferential statistics for correlations, t-tests, and regression. 
+-   Lectures week 10-14 - Inferential statistics for correlations, t-tests, and regression. 
 
 -   [Chapter 10](https://psyteachr.github.io/quant-fun-v3/10-power.html){target="_blank"} of the PsyTeachR book Fundamentals of Quantitative Analysis outlines how to perform power analysis in R for different statistical tests.
 
@@ -46,7 +45,7 @@ For an example, [Mehr et al. (2016, pg. 487)](http://journals.sagepub.com/doi/10
 
 > "**Statistical power**. The target sample size of 32 was determined before the experiment began, to ensure adequate power to detect a positive selective-attention effect. A similar experiment testing effects of language rather than music (Kinzler et al., 2007) obtained an effect size (d) of 0.54, and a sample of 32 had .84 power to detect an effect of this magnitude."
 
-We can reproduce their power analysis using the `pwr` package for a paired samples t-test (if you have not got to Chapter 10 in data skills yet, do not worry if this looks unfamiliar):
+We can reproduce their power analysis using the `pwr` package for a paired samples t-test (revisit Chapter 10 in data skills if this looks unfamiliar):
 
 ```{r Mehr power}
 pwr.t.test(d = 0.54,

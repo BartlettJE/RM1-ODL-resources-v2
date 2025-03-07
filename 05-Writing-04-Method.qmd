@@ -67,6 +67,14 @@ Normally, this would appear first in the method. The aim here is to explain who 
     -   Remember you are leading a reader through the methods, so it is important for them to be able to follow what you are saying. This means thinking about what they will know at certain points and what they will understand. Ask yourself, "will this make sense to a reader if I present this information now, or should I present it later/earlier?"
 
     -   For example, if you plan on excluding people and this changes the possible demographics of your groups, then it would make sense to present the demographics after you have presented the exclusion criteria, so it is clear the demographics are of those left in your study and do not include people you removed.
+    
+::: {.callout-tip}
+#### What was the sampling technique for the MSLQ study? 
+
+There are a few elements to the study you are writing up. It started in 2020 during the COVID-19 pandemic as an online study to support the undergraduate and postgraduate research methods courses at the University of Glasgow. 
+
+We asked students to complete it in their lab classes and in the distance learning MSc like you are completing. However, we also asked students initially to share the study link with their friends/network to get more responses. We no longer do this as we have a huge sample size but as a limitation, the demographics do not record whether the participant is a student from the University or not. So, it's combined convenience (sharing it with students in our classes) and volunteer (sharing a link with potential participants on social media) sampling to recruit participants. 
+:::
 
 ## Materials
 
@@ -166,9 +174,9 @@ You would normally include details such as:
 
     -   You can clarify it is a quasi-experimental variable in this study since they were only self-selecting groups.
 
--   You could report a power analysis here to outline how many participants you estimates you need to detect your smallest effect size of interest. However, because of the structure of the course and how we must cover all the key concepts, we do **not** consider it essential for this report. Alternatively, you could report it at the start of your results section. If you and your group do attempt a power analysis, think about: 
+-   You could report a power analysis here (or sometimes you see it in the participants section) to outline how many participants you estimate you need to detect your smallest effect size of interest. If you and your group do attempt a power analysis, think about: 
 
-    -   You will want to state and justify the alpha value, the power value, and the smallest effect size of interest. Typically, you will be calculating the sample size as the output here. These concepts will be unfamiliar to you in week 4, but you will learn about them in week 5 and beyond.
+    -   You will want to state and justify the alpha value, the power value, and the smallest effect size of interest. Typically, you will be calculating the sample size as the output here.
 
 -   Briefly state how you planned on analysing the data 
 

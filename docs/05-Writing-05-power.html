@@ -5,7 +5,7 @@
 <meta name="generator" content="quarto-1.5.57">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="description" content="Key course information for the MSc Research Methods 1 ODL course.">
-<title>8&nbsp; Registered Report and MSLQ Overview – MSc Research Methods 1 ODL Course Information</title>
+<title>12&nbsp; Reporting Power Analyses – MSc Research Methods 1 ODL Course Information</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,6 +18,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -26,8 +60,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./05-Writing-02-Reading.html" rel="next">
-<link href="./05-Writing-00.html" rel="prev">
+<link href="./05-Writing-06-NHST.html" rel="next">
+<link href="./05-Writing-04-Method.html" rel="prev">
 <link href="./images/logos/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -68,7 +102,32 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+}</script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 <link rel="stylesheet" href="include/booktem.css">
 <link rel="stylesheet" href="include/webex.css">
 <link rel="stylesheet" href="include/glossary.css">
@@ -81,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-Writing-00.html">Research and Writing Skills</a></li><li class="breadcrumb-item"><a href="./05-Writing-01-MSLQ.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registered Report and MSLQ Overview</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-Writing-00.html">Research and Writing Skills</a></li><li class="breadcrumb-item"><a href="./05-Writing-05-power.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Reporting Power Analyses</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -175,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-Writing-01-MSLQ.html" class="sidebar-item-text sidebar-link active">
+  <a href="./05-Writing-01-MSLQ.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registered Report and MSLQ Overview</span></span></a>
   </div>
 </li>
@@ -199,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-Writing-05-power.html" class="sidebar-item-text sidebar-link">
+  <a href="./05-Writing-05-power.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Reporting Power Analyses</span></span></a>
   </div>
 </li>
@@ -219,27 +278,27 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
    
   <ul>
-<li><a href="#general-overview-of-the-registered-report" id="toc-general-overview-of-the-registered-report" class="nav-link active" data-scroll-target="#general-overview-of-the-registered-report"><span class="header-section-number">8.1</span> General overview of the registered report</a></li>
+<li><a href="#statistical-power-recap" id="toc-statistical-power-recap" class="nav-link active" data-scroll-target="#statistical-power-recap"><span class="header-section-number">12.1</span> Statistical power recap</a></li>
+  <li><a href="#choosing-a-smallest-effect-size-of-interest" id="toc-choosing-a-smallest-effect-size-of-interest" class="nav-link" data-scroll-target="#choosing-a-smallest-effect-size-of-interest"><span class="header-section-number">12.2</span> Choosing a smallest effect size of interest</a></li>
   <li>
-<a href="#research-project-topic" id="toc-research-project-topic" class="nav-link" data-scroll-target="#research-project-topic"><span class="header-section-number">8.2</span> Research project topic</a>
+<a href="#report-power" id="toc-report-power" class="nav-link" data-scroll-target="#report-power"><span class="header-section-number">12.3</span> Reporting your power analysis</a>
   <ul class="collapse">
-<li><a href="#mslq" id="toc-mslq" class="nav-link" data-scroll-target="#mslq"><span class="header-section-number">8.2.1</span> MSLQ</a></li>
-  <li><a href="#demographic-variables" id="toc-demographic-variables" class="nav-link" data-scroll-target="#demographic-variables"><span class="header-section-number">8.2.2</span> Demographic variables</a></li>
+<li><a href="#adaptation-one" id="toc-adaptation-one" class="nav-link" data-scroll-target="#adaptation-one"><span class="header-section-number">12.3.1</span> Adaptation one</a></li>
+  <li><a href="#activity-summary" id="toc-activity-summary" class="nav-link" data-scroll-target="#activity-summary"><span class="header-section-number">12.3.2</span> Activity summary</a></li>
   </ul>
 </li>
-  <li><a href="#distinguishing-types-of-research-questions" id="toc-distinguishing-types-of-research-questions" class="nav-link" data-scroll-target="#distinguishing-types-of-research-questions"><span class="header-section-number">8.3</span> Distinguishing types of research questions</a></li>
   <li>
-<a href="#mslq-suggested-variable-pairs" id="toc-mslq-suggested-variable-pairs" class="nav-link" data-scroll-target="#mslq-suggested-variable-pairs"><span class="header-section-number">8.4</span> MSLQ suggested variable pairs</a>
+<a href="#sensitivity" id="toc-sensitivity" class="nav-link" data-scroll-target="#sensitivity"><span class="header-section-number">12.4</span> A priori vs sensitivity power analysis</a>
   <ul class="collapse">
-<li><a href="#variable-pairs-for-comparing-two-groups" id="toc-variable-pairs-for-comparing-two-groups" class="nav-link" data-scroll-target="#variable-pairs-for-comparing-two-groups"><span class="header-section-number">8.4.1</span> Variable pairs for comparing two groups</a></li>
-  <li><a href="#variable-pairs-for-the-association-between-two-variables." id="toc-variable-pairs-for-the-association-between-two-variables." class="nav-link" data-scroll-target="#variable-pairs-for-the-association-between-two-variables."><span class="header-section-number">8.4.2</span> Variable pairs for the association between two variables.</a></li>
+<li><a href="#example-from-published-research" id="toc-example-from-published-research" class="nav-link" data-scroll-target="#example-from-published-research"><span class="header-section-number">12.4.1</span> Example from published research</a></li>
+  <li><a href="#mock-example-with-r-code-and-output" id="toc-mock-example-with-r-code-and-output" class="nav-link" data-scroll-target="#mock-example-with-r-code-and-output"><span class="header-section-number">12.4.2</span> Mock example with R code and output</a></li>
   </ul>
 </li>
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-Writing-00.html">Research and Writing Skills</a></li><li class="breadcrumb-item"><a href="./05-Writing-01-MSLQ.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registered Report and MSLQ Overview</span></a></li></ol></nav><div class="quarto-title">
-<h1 class="title"><span id="MSLQ-overview" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registered Report and MSLQ Overview</span></span></h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-Writing-00.html">Research and Writing Skills</a></li><li class="breadcrumb-item"><a href="./05-Writing-05-power.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Reporting Power Analyses</span></a></li></ol></nav><div class="quarto-title">
+<h1 class="title"><span id="report-power" class="quarto-section-identifier"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Reporting Power Analyses</span></span></h1>
 </div>
 
 
@@ -253,131 +312,395 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><section id="general-overview-of-the-registered-report" class="level2" data-number="8.1"><h2 data-number="8.1" class="anchored" data-anchor-id="general-overview-of-the-registered-report">
-<span class="header-section-number">8.1</span> General overview of the registered report</h2>
-<p>In this course, we are preparing you to read and appraise journal articles, and write up an empirical quantitative research project yourself. Throughout the lectures, labs, and independent learning, you will learn how to formulate a research question, design a study, apply statistical analyses, and write up your results to communicate to others as a research report.</p>
-<p>In your group, you decide on a topic and collectively write a stage one registered report (<a href="03-AIS-04-stage1.html">see the stage one AIS</a>) which contains an introduction and method section for how you plan on addressing your research question. Individually, you will then write a stage two registered report (<a href="03-AIS-05-stage2.html">see the stage two AIS</a>) which contains a results, discussion, and abstract section.</p>
-<p>You will be working with a secondary data set that we collected over the past few years. We have data from a few thousand students and you will be able to use the data to address a research question you develop in your group, within the parameters of the variables we have available. The rest of this chapter outlines the data set you will be working with in more detail, so please read through in advance of your first lab.</p>
-</section><section id="research-project-topic" class="level2" data-number="8.2"><h2 data-number="8.2" class="anchored" data-anchor-id="research-project-topic">
-<span class="header-section-number">8.2</span> Research project topic</h2>
-<section id="mslq" class="level3" data-number="8.2.1"><h3 data-number="8.2.1" class="anchored" data-anchor-id="mslq">
-<span class="header-section-number">8.2.1</span> MSLQ</h3>
-<p>The broad topic of the research project is <strong>self-regulated learning</strong>.</p>
-<p>Self-regulated learning models describe learning in terms of taking control of and evaluating one’s own learning and behaviour. The study you will write up uses a questionnaire called the Motivated Strategies for Learning Questionnaire (MSLQ, Pintrich et al., 1991).</p>
+</header><p>In this research skills chapter, we explore reporting power analyses which normally goes in the method, but it does not quite align with the schedule for how quickly we cover report writing and inferential statistics. A power analysis is one strategy to justify how many participants you require for your study, and you would typically include it in the participants or data analysis sub-section of the method. ## Recommended resources for statistical power</p>
+<p>In semester 1, the concept of statistical power and how it applies to specific statistical tests are spread across materials and several weeks of lectures:</p>
+<ul>
+<li><p>Lecture week 8 - Hypothesis testing.</p></li>
+<li><p>Lectures week 10-14 - Inferential statistics for correlations, t-tests, and regression.</p></li>
+<li><p><a href="https://psyteachr.github.io/quant-fun-v3/10-power.html" target="_blank">Chapter 10</a> of the PsyTeachR book Fundamentals of Quantitative Analysis outlines how to perform power analysis in R for different statistical tests.</p></li>
+<li><p><a href="https://open.lnu.se/index.php/metapsychology/article/view/3078" target="_blank">Bartlett and Charles (2022)</a> provide a beginner’s tutorial to power analysis. Part 1 outlines the concept of statistical power and part 2 discusses justifying the inputs you use in power analysis. Ignore part 3 as you will be using R instead of jamovi.</p></li>
+</ul>
+<section id="statistical-power-recap" class="level2" data-number="12.1"><h2 data-number="12.1" class="anchored" data-anchor-id="statistical-power-recap">
+<span class="header-section-number">12.1</span> Statistical power recap</h2>
+<p>In null hypothesis significance testing (NHST), we can put a limit on two types of error. Type I errors (false positives) are when we reject the null hypothesis and conclude a test was statistically significant, when really the null hypothesis is true. Type II errors (false negatives) are when we retain the null hypothesis and conclude a test was non-significant, when really the null hypothesis is false.</p>
+<p>Statistical power is related to the second type of error (type II). The definition of power is the long run probability of your study design correctly rejecting the null hypothesis when there is a true effect to be found. In short, “if an effect exists, how likely am I to detect it”? If a study has high statistical power, you would reliably detect a given effect size. If a study has low statistical power, you would not reliably detect a given effect size.</p>
+<p>In null hypothesis significance testing, there are four key concepts:</p>
+<ul>
+<li><p><strong>Alpha</strong>: The predetermined cut-off in your design at which you reject the null hypothesis (normally set at <span class="math inline">\(\alpha\)</span> = .05). This is your false positive error rate to limit the number of type I errors you would be willing to make.</p></li>
+<li><p><strong>Power</strong>: The ability of a design to find an effect based on 1 - <span class="math inline">\(\beta\)</span>, where beta is normally set at .20 or .10, producing power = .80 or .90. Beta is the false negative error rate to limit the number of type II errors you would be willing to make.</p></li>
+<li><p><strong>Effect size</strong>: A number that expresses the magnitude of the phenomenon related to your research question. This will typically be Cohen’s <em>d</em> for the standardised mean difference in t-tests or the correlation coefficient <em>r</em>.</p></li>
+<li><p><strong>Sample size</strong>: The number of participants or observations in your study.</p></li>
+</ul>
+<p>Conveniently, there is an interaction between the four key concepts of Alpha, Power, Effect Size, and Sample Size (APES). If you state three, you can calculate the fourth. Assuming you use the field standards of <span class="math inline">\(\alpha\)</span> = .05 and power = .80, choosing the final input of sample size or effect size produces one of two informative types of power analysis:</p>
+<ol type="1">
+<li><p><strong>A priori power analysis</strong>: You solve power analysis for the number of participants you need for a given value of <span class="math inline">\(\alpha\)</span>, power, and effect size.</p></li>
+<li><p><strong>Sensitivity power analysis</strong>: You solve power analysis for the effect size you can detect for a given value of <span class="math inline">\(\alpha\)</span>, power, and sample size.</p></li>
+</ol>
+<p>For an example, <a href="http://journals.sagepub.com/doi/10.1177/0956797615626691" target="_blank">Mehr et al.&nbsp;(2016, pg. 487)</a> report the following <em>a priori</em> power analysis in their study on the effect of melody on infants:</p>
+<blockquote class="blockquote">
+<p>“<strong>Statistical power</strong>. The target sample size of 32 was determined before the experiment began, to ensure adequate power to detect a positive selective-attention effect. A similar experiment testing effects of language rather than music (Kinzler et al., 2007) obtained an effect size (d) of 0.54, and a sample of 32 had .84 power to detect an effect of this magnitude.”</p>
+</blockquote>
+<p>We can reproduce their power analysis using the <code>pwr</code> package for a paired samples t-test (revisit Chapter 10 in data skills if this looks unfamiliar):</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">pwr.t.test</span>(<span class="at">d =</span> <span class="fl">0.54</span>,</span>
+<span id="cb1-2"><a href="#cb1-2"></a>           <span class="at">sig.level =</span> .<span class="dv">05</span>,</span>
+<span id="cb1-3"><a href="#cb1-3"></a>           <span class="at">power =</span> .<span class="dv">84</span>,</span>
+<span id="cb1-4"><a href="#cb1-4"></a>           <span class="at">type =</span> <span class="st">"paired"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5"></a>           <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+     Paired t test power calculation 
+
+              n = 31.91057
+              d = 0.54
+      sig.level = 0.05
+          power = 0.84
+    alternative = two.sided
+
+NOTE: n is number of *pairs*</code></pre>
+</div>
+</div>
+<p>Since we left the argument <code>n</code> blank, we receive that as the output of our <em>a priori</em> power analysis. We need 31.91 participants, but we always <strong>round up</strong> to a whole number of participants to avoid underestimating, so we would need 32 participants. The power analysis in Mehr et al.&nbsp;provides one example, but it is not perfect. There are some inputs they do not explicitly specify, so we will return to this example in <a href="#report-power">reporting your power analysis</a> below.</p>
+<p>For your stage one report (and looking forward to your dissertation), you could report an <em>a priori</em> power analysis to inform how many participants you would need to detect your smallest effect size of interest. Power analysis and pre-registration is most informative in the design phase of research, so you would typically perform a power analysis to inform how many participants you try and recruit.</p>
+<p>Just keep in mind: for the assignment in RM1 you have no control over the final sample size as we collected data for you. This means there might be a difference in your planned sample size from the <em>a priori</em> power analysis and the final sample size you work with. Therefore, we have a section on <a href="#sensitivity">sensitivity power analysis</a> to consider potential differences in your planned vs final sample size.</p>
+</section><section id="choosing-a-smallest-effect-size-of-interest" class="level2" data-number="12.2"><h2 data-number="12.2" class="anchored" data-anchor-id="choosing-a-smallest-effect-size-of-interest">
+<span class="header-section-number">12.2</span> Choosing a smallest effect size of interest</h2>
+<p>For an <em>a priori</em> power analysis, you need to enter an effect size. The term we use for this is the <strong>smallest effect size of interest</strong>. It is rare you would know precisely what effect size you were looking for - as you would not need the study if you understood the topic that well. This means your smallest effect size of interest represents the threshold for what effect sizes you want your study sensitive enough to detect. Power exists along a curve, so holding the sample size and all other inputs constant, you would be less likely to detect smaller effects, but more likely to detect effects larger than your smallest effect of interest.</p>
+<p>The following plot is a power curve showing the relationship between the correlation coefficient <em>r</em> as the effect size and statistical power for a given sample size. Assuming our power analysis suggested we need to collect 60 participants, we would have 80% power to detect effects of <em>r</em> = .36. The smallest effect size of interest is where the two lines meet for your desired level of power (here 80%). As you move down the curve highlighted by the grey region, you would be <strong>less likely</strong> to detect effects smaller than your smallest effect size of interest. As you move up the curve, you would be <strong>more likely</strong> to detect effects larger than your smallest effect size of interest. In short, and assuming you want to keep power at 80% or higher, then you would be looking for effect sizes at, or greater than, your smallest effect size of interest.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="Supporting/self-reg-learning.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="Supporting/self-reg-learning.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></a></p>
+<figure class="figure"><p><a href="05-Writing-05-power_files/figure-html/power curve 60-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="05-Writing-05-power_files/figure-html/power curve 60-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div>
 </div>
-<p>The MSLQ has two sections, motivation and learning strategies, each with multiple sub-scales. One of these scales may form part of the analysis you write up. There is more information about what each of these scales measures in the MSLQ Overview document, which you can <a href="Supporting/MSLQ Overview.docx">download using this link</a>, or you can find it in the Semester 2 Week 1 content.</p>
-<p><strong>Motivation sub-scales</strong></p>
+<p>To demonstrate what this looks like for a larger smallest effect size of interest, if your power analysis suggested we need 30 participants, we would have 80% power to detect effects of <em>r</em> = .49. The smallest effect size of interest is again represented by where the two lines meet. Since we only wanted our design to be sensitive to larger effects, there is a larger grey region to highlight the effects we would be <strong>less likely</strong> to detect. As you move down the curve, you would be less likely to detect effects smaller than <em>r</em> = .49. As you move up the curve, you would be more likely to detect effects larger than <em>r</em> = .49. In short, you would be still be looking for effect sizes at, or greater than, your smallest effect size of interest, but that threshold shifts to exclude a larger region of smaller effects.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="05-Writing-05-power_files/figure-html/power curve 30-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="05-Writing-05-power_files/figure-html/power curve 30-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Assuming you use the field standards of <span class="math inline">\(\alpha\)</span> = .05 and power = .80, this leaves the smallest effect size of interest as the main decision you must make. Choosing an effect size is the hardest part of power analysis, but there is no one correct answer, only a difference between justified and unjustified. In your power analysis, we care more about your justification for your choice of effect size rather than the value itself.</p>
+<p>You could always aim for a tiny effect size but in a real study you are trying to compromise between an informative study and the resources (time / money) you have available. You could always aim for a large effect size, but you might miss potentially informative smaller effects. This means you must choose your smallest effect size of interest based on your understanding of the topic area and consider what effects you would not want to miss out on.</p>
+<p>There are different strategies for choosing a smallest effect size of interest (see <a href="https://doi.org/10.1525/collabra.33267" target="_blank">Lakens, 2022</a> for a full discussion):</p>
 <ul>
-<li><p>Intrinsic goal orientation</p></li>
-<li><p>Extrinsic goal orientation</p></li>
-<li><p>Task value</p></li>
-<li><p>Control beliefs</p></li>
-<li><p>Self-efficacy</p></li>
-<li><p>Test anxiety</p></li>
+<li><p>Individual published studies: What effect sizes do similar studies to yours report?</p></li>
+<li><p>Meta-analyses: What is the average effect size across several studies on a topic?</p></li>
+<li><p>Effect size distributions: For a given topic, what is the distribution of effect sizes for what is considered small, medium, and large?</p></li>
+</ul></section><section id="report-power" class="level2" data-number="12.3"><h2 data-number="12.3" class="anchored" data-anchor-id="report-power">
+<span class="header-section-number">12.3</span> Reporting your power analysis</h2>
+<p>If you do report a power analysis, think about what information would allow the reader to reproduce your power analysis and understand your justification behind each input. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236079" target="_blank">Bakker et al.&nbsp;(2020)</a> reviewed power analyses reported in pre-registrations and review boards and highlighted the most common omissions. From a sample of 210 studies, the most common omissions (% is the percentage of studies missing the information) in the features of a power analysis were:</p>
+<ul>
+<li><p>Sidedness of the test (78%)</p></li>
+<li><p>Justification for effect size (45%)</p></li>
+<li><p>Type of effect size (30%)</p></li>
+<li><p>Alpha value (29%)</p></li>
+<li><p>Value of effect size (15%)</p></li>
+<li><p>Power / beta value (15%)</p></li>
+<li><p>Sample size (8%)</p></li>
 </ul>
-<p><strong>Learning strategy sub-scales</strong></p>
-<ul>
-<li><p>Rehearsal</p></li>
-<li><p>Elaboration</p></li>
-<li><p>Organisation</p></li>
-<li><p>Critical thinking</p></li>
-<li><p>Meta-cognition</p></li>
-<li><p>Time and study environment</p></li>
-<li><p>Effort regulation</p></li>
-<li><p>Peer learning</p></li>
-<li><p>Help-seeking</p></li>
-</ul></section><section id="demographic-variables" class="level3" data-number="8.2.2"><h3 data-number="8.2.2" class="anchored" data-anchor-id="demographic-variables">
-<span class="header-section-number">8.2.2</span> Demographic variables</h3>
-<p>In addition to the MSLQ, we also have a selection of demographic information about the participants and you may choose to use one of these variables in your analysis, or use it to isolate a particular population of interest.</p>
-<ul>
-<li><p>Age in years</p></li>
-<li><p>Gender (male/female/non-binary)</p></li>
-<li><p>Native vs non-native speakers</p></li>
-<li><p>Paid employment in hours</p></li>
-<li><p>Living at home vs living in halls</p></li>
-<li><p>Level of study (undergraduate vs postgraduate)</p></li>
-<li><p>Mature student vs traditional student (for undergraduate students only)</p></li>
-</ul></section></section><section id="distinguishing-types-of-research-questions" class="level2" data-number="8.3"><h2 data-number="8.3" class="anchored" data-anchor-id="distinguishing-types-of-research-questions">
-<span class="header-section-number">8.3</span> Distinguishing types of research questions</h2>
-<p>For the research question (what you want to try and answer with your project) you develop in your group, there are two main types for the designs we introduce you to in this course. First, you might be interested in the relationship between two variables, such as whether an increase in one variable is associated with an increase in another variable. Second, you might be interested in whether two groups differ on a given outcome.</p>
-<p>For relationships, if you are thinking about which sub-scales might be correlated with each other or related, you might ask such research questions as:</p>
-<ol type="1">
-<li><p>Is there a relationship between help-seeking and test anxiety?</p></li>
-<li><p>Is there an association between intrinsic goal orientation and effort regulation?</p></li>
-</ol>
-<p>If you are thinking about which sub-scales might show group differences, you might ask such research questions as:</p>
-<ol type="1">
-<li><p>Do mature students have lower test anxiety than traditional students?</p></li>
-<li><p>Do postgraduate students have higher intrinsic motivation than undergraduate students?</p></li>
-</ol>
-<p>We will go into more detail about how to create formal research questions and hypotheses in future weeks. Starting in week 2, we will show you how to find peer-reviewed evidence to build your understanding of the variables, identify a rationale, and develop your research question and hypothesis.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You will have freedom to develop a research question in your group but since you are using secondary data, there are constraints. Keep in mind you only have the variables listed above available to you. This course is also introductory, so we intentionally restrict you to focusing on two variables. You will learn how to test more complex research questions in RM2 / year 2.</p>
-</div>
-</div>
-</section><section id="mslq-suggested-variable-pairs" class="level2" data-number="8.4"><h2 data-number="8.4" class="anchored" data-anchor-id="mslq-suggested-variable-pairs">
-<span class="header-section-number">8.4</span> MSLQ suggested variable pairs</h2>
-<p>Now you have an understanding of what the MSLQ project is, we have a list of variable pairs that have worked well in the past and we know that there is some existing literature to base your study on. We would like you to read through these pairs for different types of designs you will learn about in the semester. When you complete the group preference form, you will indicate which pair you are most interested in, and we will use this to try and organise people into groups with similar interests where applicable.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Can I still change my mind?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This seems like a big decision to make but we use your initial interests to arrange people into groups (where we need to) when you might not know other people. You can choose different variables once you are in your groups but we outlined these as we know they can work well together for the report, and you must make any changes in collaboration with all the members of your group. Once you settle on two variables, you might also focus on a specific population in your group as you develop your rationale, like focusing on postgraduate students if you recognise there is a gap in the literature, so there is still creative freedom beyond choosing the variable pairs.</p>
-</div>
-</div>
-<section id="variable-pairs-for-comparing-two-groups" class="level3" data-number="8.4.1"><h3 data-number="8.4.1" class="anchored" data-anchor-id="variable-pairs-for-comparing-two-groups">
-<span class="header-section-number">8.4.1</span> Variable pairs for comparing two groups</h3>
-<ul>
-<li><p>Test anxiety and undergraduate vs postgraduate, or years 1 and 2 vs years 3-5 (pre-honours vs honours at the University of Glasgow)</p></li>
-<li><p>Help-seeking and first vs second language</p></li>
-<li><p>Meta-cognitive self-regulation and non-mature vs mature undergraduate student status</p></li>
-<li><p>Meta-cognitive self-regulation and undergraduate vs postgraduate study, or years 1 and 2 vs years 3-5 (pre-honours vs honours at the University of Glasgow)</p></li>
-<li><p>Self-efficacy and undergraduate vs postgraduate study</p></li>
-<li><p>Intrinsic motivation and undergraduate vs postgraduate study</p></li>
-</ul></section><section id="variable-pairs-for-the-association-between-two-variables." class="level3" data-number="8.4.2"><h3 data-number="8.4.2" class="anchored" data-anchor-id="variable-pairs-for-the-association-between-two-variables.">
-<span class="header-section-number">8.4.2</span> Variable pairs for the association between two variables.</h3>
-<ul>
-<li><p>Self-efficacy and help-seeking</p></li>
-<li><p>Test anxiety and meta-cognitive self-regulation</p></li>
-<li><p>Test anxiety and self-efficacy</p></li>
-<li><p>Self-efficacy and help-seeking</p></li>
-<li><p>Intrinsic motivation and age</p></li>
-</ul>
+<p>Bakker et al.&nbsp;observed that the most common omission was whether researchers assumed a one- or two-tailed test and the least common omission was the sample size the power analysis suggested.</p>
+<p>Previously, we highlighted that Mehr et al.&nbsp;does not provide a complete example of reporting a power analysis. As an activity, we would like you to work through different adaptations we prepared and indicate what information you think is included and what you think is missing. Each adaptation is hidden behind a “show me” tab, so you can view each one in turn and focus on asking yourself what information is missing. We will compare each adaptation side by side afterwards.</p>
+<section id="adaptation-one" class="level3" data-number="12.3.1"><h3 data-number="12.3.1" class="anchored" data-anchor-id="adaptation-one">
+<span class="header-section-number">12.3.1</span> Adaptation one</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Try this
+Show me the first adaptation
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Now you have read through the MSLQ and project overview, think about which variable pairs interest you the most and complete the group preference form (available on Moodle and Teams). We will finalise groups at the end of semester 2 week 1, so you have as much time as possible to work on your group project.</p>
+<p>Using the field standards of power = .80 and alpha = .05, and an effect size from previous studies, we will require 29 infants in our study.</p>
 </div>
 </div>
+</div>
+<p>In adaptation one, what information do you think is missing?</p>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<section id="adaptation-two" class="level4" data-number="12.3.1.1"><h4 data-number="12.3.1.1" class="anchored" data-anchor-id="adaptation-two">
+<span class="header-section-number">12.3.1.1</span> Adaptation two</h4>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show me the second adaptation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Previous related research looking into how infants can develop and show selective-attention suggested a medium sized effect. As such, using the field standards of power = .80 and alpha = .05, and d = 0.54, we will require 29 infants in our study.</p>
+</div>
+</div>
+</div>
+<p>In adaptation two, what information do you think is missing?</p>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+</section><section id="adaptation-three" class="level4" data-number="12.3.1.2"><h4 data-number="12.3.1.2" class="anchored" data-anchor-id="adaptation-three">
+<span class="header-section-number">12.3.1.2</span> Adaptation three</h4>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show me the third adaptation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Previous related research looking into how infants can develop and show selective-attention through music (Mehr et al., 2016) and language (Kinzler et al., 2007) suggested a medium sized effect around d = 0.54. As such, using the field standards of power = .80 and alpha = .05, and the suggested effect size from previous studies, we will require 29 infants in our study for a two-tailed test.</p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="answer">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<ul>
+<li>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select>
+</li>
+</ul>
+</div>
+</section></section><section id="activity-summary" class="level3" data-number="12.3.2"><h3 data-number="12.3.2" class="anchored" data-anchor-id="activity-summary">
+<span class="header-section-number">12.3.2</span> Activity summary</h3>
+<p>Adaptation 3 is by no means a perfect example. The justification for the effect size could be more detailed and there are some subtle details Bakker et al.&nbsp;(2020) did not assess in their review. For example, you could mention the statistical test it is based on for absolutely clarity, and justify using the field standard values for alpha and power. To highlight how each adaptation changes, we will start with number one which included the fewest details and it would be difficult to reproduce the power analysis.</p>
+<blockquote class="blockquote">
+<p>Using the field standards of power = .80 and alpha = .05, and an effect size from previous studies, we will require 29 infants in our study.</p>
+</blockquote>
+<p>We only have the field standards of 80% power, 5% alpha, and we need 29 participants. There is no mention of the effect size, no justification, and no mention of the test it is based on.</p>
+<p>Adding bold to adaptation two, we add more details.</p>
+<blockquote class="blockquote">
+<p><strong>Previous related research looking into how infants can develop and show selective-attention suggested a medium sized effect</strong>. As such, using the field standards of power = .80 and alpha = .05, <strong>and d = 0.54</strong>, we will require 29 infants in our study.</p>
+</blockquote>
+<p>We mention studies on this topic report a medium sized effect, so that could be our smallest effect size of interest. We then specify an effect of d = 0.54 to add another input for our power analysis. However, we are vague about the studies that report the effect and there is no mention of the test or the number of tails it is based on.</p>
+<p>Adding a final round of bold to adaptation three, we add a few more details.</p>
+<blockquote class="blockquote">
+<p><strong>Previous related research looking into how infants can develop and show selective-attention through music (Mehr et al., 2016) and language (Kinzler et al., 2007)</strong> suggested a medium sized effect around d = 0.54. As such, using the field standards of power = .80 and alpha = .05, and the suggested effect size from previous studies, we will require 29 infants in our study <strong>for a two-tailed test</strong>.</p>
+</blockquote>
+<p>This time, the explanation could be more detailed for why this value represents the smallest effect size of interest, but we outlined studies to support this decision. We add the number of tails the power analysis is based on at the end, but we do not outline specifically what statistical test it is applied to.</p>
+</section></section><section id="sensitivity" class="level2" data-number="12.4"><h2 data-number="12.4" class="anchored" data-anchor-id="sensitivity">
+<span class="header-section-number">12.4</span> A priori vs sensitivity power analysis</h2>
+<p>One common question we receive is: “what happens if we do not get the sample size we need from the final data?”. Typically in research, an <em>a priori</em> power analysis is most effective during the design phase. You have the opportunity to design your study and calculate how many participants you must recruit for your desired level of sensitivity, keeping in mind the resources you have available. At this point, you collect data and try to recruit as many participants as your power analysis suggested.</p>
+<p>For different reasons, your final sample size might be different to the sample size you planned on recruiting. The final sample size could be smaller as you found it more difficult to recruit participants for your target population or there was more missing data than you expected. Alternatively, the final sample size could be larger as more people responded to the advert than you were anticipating. This does not mean your <em>a priori</em> power analysis was a waste of time, but you can consider the difference between your planned sample size and your final sample size.</p>
+<section id="example-from-published-research" class="level3" data-number="12.4.1"><h3 data-number="12.4.1" class="anchored" data-anchor-id="example-from-published-research">
+<span class="header-section-number">12.4.1</span> Example from published research</h3>
+<p>For a nice example from a published study, <a href="https://doi.org/10.1177/1948550619877412" target="_blank">Wingen et al.&nbsp;(2020, pg. 455)</a> commented on the difference between their planned and final sample size:</p>
+<blockquote class="blockquote">
+<p>“The sample size was set to 266, based on an a priori power analysis for 95% power (one-sided <span class="math inline">\(\alpha\)</span> of .05) to detect a small to moderate effect of <em>r</em> = .2, that would be typical for similar social psychological research (Richard, Bond, &amp; Stokes-Zoota, 2003). The final sample was slightly larger as is often the case in online studies and consisted of 271 participants (54.3% male; age: <em>M</em> = 33.7 years, <em>SD</em> = 8.9). No participants were excluded from the analyses. A sensitivity analysis showed that our final sample had a high chance (1 - <span class="math inline">\(\beta\)</span> = .80, one-sided <span class="math inline">\(\alpha\)</span> = .05) to detect a correlation of <em>r</em> = .15 and a very high chance (1 - <span class="math inline">\(\beta\)</span> = .95, one-sided <span class="math inline">\(\alpha\)</span> = .05) to detect <em>r</em> = .20.”</p>
+</blockquote>
+<p>Their original power analysis suggested they needed 266 participants to detect their smallest effect size of interest. They recruited 271 participants instead, so they commented on what effect size their study would be sensitive to for two values of power.</p>
+</section><section id="mock-example-with-r-code-and-output" class="level3" data-number="12.4.2"><h3 data-number="12.4.2" class="anchored" data-anchor-id="mock-example-with-r-code-and-output">
+<span class="header-section-number">12.4.2</span> Mock example with R code and output</h3>
+<p>For an additional example, let’s imagine we were building on the Mehr et al.&nbsp;example we have worked with throughout this section. We can calculate power for a paired samples t-test as above with a smallest effect size of interest of d = 0.54, 84% power, 5% alpha, and a two-tailed test.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">pwr.t.test</span>(<span class="at">d =</span> <span class="fl">0.54</span>,</span>
+<span id="cb3-2"><a href="#cb3-2"></a>           <span class="at">sig.level =</span> .<span class="dv">05</span>,</span>
+<span id="cb3-3"><a href="#cb3-3"></a>           <span class="at">power =</span> .<span class="dv">84</span>,</span>
+<span id="cb3-4"><a href="#cb3-4"></a>           <span class="at">type =</span> <span class="st">"paired"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5"></a>           <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+     Paired t test power calculation 
+
+              n = 31.91057
+              d = 0.54
+      sig.level = 0.05
+          power = 0.84
+    alternative = two.sided
+
+NOTE: n is number of *pairs*</code></pre>
+</div>
+</div>
+<p>The <em>a priori</em> power analysis shows we would need to recruit 32 infants to be consistent with our power analysis. However, perhaps we had trouble recruiting infants and we had technical troubles meaning we lost some data. What effect size could we detect if our final sample size was 20?</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">pwr.t.test</span>(<span class="at">n =</span> <span class="dv">20</span>,</span>
+<span id="cb5-2"><a href="#cb5-2"></a>           <span class="at">sig.level =</span> .<span class="dv">05</span>,</span>
+<span id="cb5-3"><a href="#cb5-3"></a>           <span class="at">power =</span> .<span class="dv">84</span>,</span>
+<span id="cb5-4"><a href="#cb5-4"></a>           <span class="at">type =</span> <span class="st">"paired"</span>,</span>
+<span id="cb5-5"><a href="#cb5-5"></a>           <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+     Paired t test power calculation 
+
+              n = 20
+              d = 0.6965685
+      sig.level = 0.05
+          power = 0.84
+    alternative = two.sided
+
+NOTE: n is number of *pairs*</code></pre>
+</div>
+</div>
+<p>This sensitivity power analysis suggests we would be able to detect an effect size of d = 0.70 with 20 participants, 84% power, 5% alpha, and a two-tailed test. This effect size is larger than our smallest effect size of interest, so we would need to consider whether this lower level of sensitivity is informative and whether it was problematic we were less likely to detect effects smaller than d = 0.70.</p>
+<p>For your assignment, you might find there is a larger difference between your planned and final sample size than a typical study. This is an educational experience where we have collected data for you and we are guiding you through the skills you will need as an independent researcher for your dissertation and beyond. So, report an <em>a priori</em> power analysis in your stage one report (or stage two report if you do not cover everything in time) based on your smallest effect size of interest, then reflect on what effect size your final sample size and design would be sensitive to detect in your stage two report.</p>
 
 
 </section></section></main><!-- /main --><script>
@@ -1176,13 +1499,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="./05-Writing-00.html" class="pagination-link" aria-label="Research and Writing Skills">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Research and Writing Skills</span>
+      <a href="./05-Writing-04-Method.html" class="pagination-link" aria-label="Structure of the Method">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Structure of the Method</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./05-Writing-02-Reading.html" class="pagination-link" aria-label="Finding, Reading, and Organising Journal Articles">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Finding, Reading, and Organising Journal Articles</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./05-Writing-06-NHST.html" class="pagination-link" aria-label="Null Hypothesis Significance Testing (NHST)">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Null Hypothesis Significance Testing (NHST)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1198,7 +1521,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
+</footer><script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
