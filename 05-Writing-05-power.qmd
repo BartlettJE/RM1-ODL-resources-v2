@@ -6,7 +6,8 @@ library(tidyverse)
 library(knitr)
 ```
 
-In this research skills chapter, we explore reporting power analyses which normally goes in the method, but it does not quite align with the schedule for how quickly we cover report writing and inferential statistics. A power analysis is one strategy to justify how many participants you require for your study, and you would typically include it in the participants or data analysis sub-section of the method. 
+In this research skills chapter, we explore reporting power analyses. You would typically include it in the participants or data analysis sub-section of the method where we mentioned it's placement in the previous chapter. Now, we have some prompts and activities to reinforce how to communicate the results of your power analysis.  
+
 ## Recommended resources for statistical power
 
 In semester 1, the concept of statistical power and how it applies to specific statistical tests are spread across materials and several weeks of lectures:
@@ -321,4 +322,4 @@ pwr.t.test(n = 20,
 
 This sensitivity power analysis suggests we would be able to detect an effect size of d = 0.70 with 20 participants, 84% power, 5% alpha, and a two-tailed test. This effect size is larger than our smallest effect size of interest, so we would need to consider whether this lower level of sensitivity is informative and whether it was problematic we were less likely to detect effects smaller than d = 0.70.
 
-For your assignment, you might find there is a larger difference between your planned and final sample size than a typical study. This is an educational experience where we have collected data for you and we are guiding you through the skills you will need as an independent researcher for your dissertation and beyond. So, report an *a priori* power analysis in your stage one report (or stage two report if you do not cover everything in time) based on your smallest effect size of interest, then reflect on what effect size your final sample size and design would be sensitive to detect in your stage two report.
+For your assignment, you might find there is a larger difference between your planned and final sample size than a typical study. This is an educational experience where we have collected data for you and we are guiding you through the skills you will need as an independent researcher for your dissertation and beyond. So, report an *a priori* power analysis in your stage 1 report based on your smallest effect size of interest, then reflect on what effect size your final sample size and design would be sensitive to detect in your stage 2 report.
