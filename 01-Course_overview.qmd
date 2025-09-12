@@ -9,7 +9,7 @@ library(lubridate)
 
 # Course Overview {#Course_overview}
 
-Welcome to your Research Methods 1 `r study_year` course on the MSc Psychology ODL Conversion programme! Across two semesters, we will introduce you to how psychologists use quantitative research methods to answer their research questions. There are many components that go into understanding and applying the techniques you will learn about, so throughout year 1 of your MSc we will cover fundamental research methods and statistics concepts, data skills to work with quantitative psychology data, and research skills to develop your understanding of reading and writing quantitative psychology reports. 
+Welcome to your Research Methods 1 **`r study_year`** course on the MSc Psychology ODL Conversion programme! Across two semesters, we will introduce you to how psychologists use quantitative research methods to answer their research questions. There are many components that go into understanding and applying the techniques you will learn about, so throughout year 1 of your MSc we will cover fundamental research methods and statistics concepts, data skills to work with quantitative psychology data, and research skills to develop your understanding of reading and writing quantitative psychology reports. 
 
 This book provides supporting information for the course such as the assignments you will complete, and resources to support developing research and writing skills. Please take the time at the start of the course to read the following course overview and learn where your sources of support are. You will keep referring back to this book throughout the year as you build your academic, research, and data skills
 
@@ -59,15 +59,15 @@ Below is a provisional order of content for this course. We will notify you of a
 
 ### Semester 1 
 
-Download this Word file: [RM1 ODL Semester 1 Timetable 2024/2025](Supporting/RM1_ODL_Sem1_Timetable_2425.docx)
+Download this Word file: [RM1 ODL Semester 1 Timetable 2024/2025](Supporting/RM1_ODL_Sem1_Timetable.docx)
 
-**Last updated:** 26/09/2024
+**Last updated:** 12/09/2025
 
 ### Semester 2
 
-Download this Word file: [RM1 ODL Semester 2 Timetable 2024/2025](Supporting/RM1_ODL_Sem2_Timetable_2425.docx)
+Download this Word file: [RM1 ODL Semester 2 Timetable 2024/2025](Supporting/RM1_ODL_Sem2_Timetable.docx)
 
-**Last updated:** 23/01/2025
+**Last updated:** 12/09/2025
 
 ## Available support
 
