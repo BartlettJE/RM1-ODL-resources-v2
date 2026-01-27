@@ -6,15 +6,15 @@ source(file = "include/deadlines.R")
 
 ## General overview of the registered report
 
-In this course, we are preparing you to read/appraise journal articles, know how to conduct your own project, and write up an empirical quantitative research project. Throughout the lectures, labs, and independent learning, you will learn how to formulate a research question, design a study, apply statistical analyses, and write up your results to communicate to others as a research report. 
+In this course, we are preparing you to read/appraise journal articles, know how to conduct your own project, and write up an empirical quantitative research project. Throughout the lectures, course material, and independent learning, you will learn how to formulate a research question, design a study, apply statistical analyses, and write up your results to communicate to others as a research report. 
 
 In your group, you will decide on a topic and collectively write a stage one registered report ([see the stage 1 AIS](#stage1-AIS)) which contains an introduction and method section for how you plan on addressing your research question. Individually, you will then write a stage two registered report ([see the stage 2 AIS](#stage2-AIS)) which contains a results, discussion, and abstract section. You have more than enough to learn about in this course without worrying about designing a study, applying for ethics, and collecting data yourselves. Therefore, we have developed two projects for you and your group to choose from and pick your own adventure. 
 
-One project focuses on sustainability and the other project focuses on inclusion/belonging. The British Psychological Society (BPS) identified both of these topics as two key areas that psychology graduates can contribute to for evidence-based understanding, policy, and intervention. As psychology students, you will learn about research methods and statistics with an applied focus, to robustly and reproducibly address research questions relevant to psychology. 
+One project focuses on sustainability and the other project focuses on culture shock. The British Psychological Society (BPS) identified both of these topics as two key areas that psychology graduates can contribute to for evidence-based understanding, policy, and intervention. As psychology students, you will learn about research methods and statistics with an applied focus, to robustly and reproducibly address research questions relevant to psychology. 
 
 We have already designed and prepared the projects you will work with in your groups. You will write a stage 1 and stage 2 registered report from the perspective of the researcher as if you conducted the studies yourselves, but you will only help us to collect data and add to the participant pool. This reduces pressure and gives you time to focus on learning about research methods and statistics before you design your own studies in future courses and in your dissertation. Autonomy is important in education though, so you have the choice between two projects to decide on as a group, and within each project there is flexibility in the research questions you can develop. 
 
-The rest of this chapter outlines starter packs to learn more about the two projects and give you a starting point for your research, so please read through in advance of your first lab. 
+The rest of this chapter outlines starter packs to learn more about the two projects and give you a starting point for your research, so please read through by the end of week 1 to help complete the group allocation process. 
 
 ## Sustainability starter pack
 
@@ -128,7 +128,7 @@ These are only examples for inspiration and you are welcome to develop an altern
 
 ::: {.callout-note}
 #### Can I still change my mind?
-This seems like a big decision to make so early, but we use your initial interests to arrange people into groups when you might not know other people in your lab yet. We expect most groups will have a mix of preferences for the sustainability or culture shock study, so the first few weeks will be working with your group to decide on the project and your specific research question. You must make any decision on the project and research question in collaboration with all the members of your group. Once you settle on two variables, you might also focus on a specific population in your group as you develop your rationale, so there is still plenty of creative freedom within each project. 
+This seems like a big decision to make so early, but we use your initial interests to arrange people into groups when you might not know other people on the course. We expect some groups will have a mix of preferences for the sustainability or culture shock study, so the first few weeks will be working with your group to decide on the project and your specific research question. You must make any decision on the project and research question in collaboration with all the members of your group. Once you settle on two variables, you might also focus on a specific population in your group as you develop your rationale, so there is still plenty of creative freedom within each project. 
 :::
 
 ::: {.callout-tip}
