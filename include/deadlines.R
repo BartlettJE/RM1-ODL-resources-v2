@@ -1,6 +1,6 @@
 study_year <- "2025 / 2026"
 
-groupagreement_due <- "March 14th 2026"
+groupagreement_due <- "March 4th 2026"
 
 stage1_due <- "April 22nd 2026"
 
